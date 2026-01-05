@@ -1,5 +1,5 @@
 //
 // Microsoft Visual C++ generated include file.
-// Used by Clipboard.rc
+// Used by RNCClipboard.rc
 
 #pragma once

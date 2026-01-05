@@ -32,10 +32,10 @@ module.exports = {
 		platforms: {
 			windows: {
 				sourceDir: "windows",
-				solutionFile: "Clipboard.sln",
+				solutionFile: "RNCClipboard.sln",
 				projects: [
 					{
-						projectFile: "Clipboard/Clipboard.vcxproj",
+						projectFile: "RNCClipboard/RNCClipboard.vcxproj",
 						directDependency: true,
 					},
 				],

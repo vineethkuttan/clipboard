@@ -7,12 +7,13 @@
  * by the TurboModule JS spec.
  */
 #pragma once
+// clang-format off
 
 
 #include <NativeModules.h>
 #include <tuple>
 
-namespace ClipboardCodegen {
+namespace RNCClipboardCodegen {
 
 struct ClipboardModuleSpec : winrt::Microsoft::ReactNative::TurboModuleSpec {
   static constexpr auto methods = std::tuple{
@@ -127,4 +128,4 @@ struct ClipboardModuleSpec : winrt::Microsoft::ReactNative::TurboModuleSpec {
   }
 };
 
-} // namespace ClipboardCodegen
+} // namespace RNCClipboardCodegen
